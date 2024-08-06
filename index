@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel to Cancun, Mexico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="header.jpeg" alt="Header Image"> <!-- Replace 'header.jpg' with the path to your image -->
+        <h1>Welcome to Cancun, Mexico</h1>
+        <div class="paypal-button-container">
+            <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                <input type="hidden" name="hosted_button_id" value="YOUR_BUTTON_ID">
+                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button">
+                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+        </div>
+        <a href="https://wa.me/1234567890" class="contact-us" target="_blank">
+            <img src="whatsapp-logo.png" alt="WhatsApp"> <!-- Replace 'whatsapp-logo.png' with the path to your WhatsApp logo image -->
+            WhatsApp
+        </a>
+    </header>
+    <nav>
+        <a href="#attractions">Popular Attractions</a>
+        <a href="#tips">Travel Tips</a>
+        <a href="#accommodation">Accommodation Options</a>
+        <a href="#cuisine">Local Cuisine</a>
+        <a href="#culture">Cultural Experiences</a>
+    </nav>
+    <section id="attractions">
+        <div class="container">
+            <h2 class="section-title">Popular Attractions</h2>
+            <div class="section-content">
+                <p>Explore the stunning beaches, vibrant nightlife, and ancient Mayan ruins that make Cancun a top travel destination.</p>
+                <div class="image-content-container">
+                    <img src="pikaso_texttoimage_35mm-film-photography-A-vibrant-beach-scene-in-Can.jpeg" alt="Beautiful beach in Cancun" style="max-width: 60%;">
+                    <div class="image-content">
+                        <h3>Beautiful Beach</h3>
+                        <p>Discover the stunning beaches of Cancun, where you can relax on the white sand, swim in the turquoise waters, and enjoy the tropical paradise.</p>
+                    </div>
+                </div>
+                <div class="image-content-container">
+                    <img src="downloadedImage (18).png" alt="Nightlife in Cancun" style="max-width: 60%;">
+                    <div class="image-content">
+                        <h3>Nightlife in Cancun</h3>
+                        <p>Experience the vibrant nightlife of Cancun with its numerous clubs, bars, and entertainment options.</p>
+                    </div>
+                </div>
+                <div class="image-content-container">
+                    <img src="pikaso_texttoimage_35mm-film-photography-A-scenic-view-of-ancient-May (1).jpeg" alt="Mayan ruins in Cancun" style="max-width: 60%;">
+                    <div class="image-content">
+                        <h3>Mayan Ruins</h3>
+                        <p>Explore the ancient Mayan ruins and learn about the rich history and culture of the region.</p>
+                    </div>
+                </div>
+                <div class="video-content-container">
+                    <video controls style="max-width: 60%;">
+                        <source src="your-video.mp4" type="video/mp4"> <!-- Replace 'your-video.mp4' with the path to your video file -->
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-content">
+                        <h3>Local Activities</h3>
+                        <p>Watch this video to discover exciting local activities in Cancun, including water sports, cultural events, and more.</p>
+                    </div>
+                </div>
+                <p>Learn more about <a href="https://www.visitmexico.com/en/main-destinations/quintana-roo/cancun" target="_blank">Cancun attractions</a>.</p>
+            </div>
+        </div>
+    </section>
+    <section id="tips">
+        <div class="container">
+            <h2 class="section-title">Travel Tips</h2>
+            <div class="section-content">
+                <ul>
+                    <li>Best time to visit: December to April. <a href="https://www.weather.com/weather/tenday/l/Cancun+Mexico" target="_blank">Check the weather forecast</a>.</li>
+                    <li>Bring sunscreen and stay hydrated.</li>
+                    <li>Learn a few basic Spanish phrases. <a href="https://www.spanishdict.com/guide/basic-spanish-phrases" target="_blank">Basic Spanish Phrases</a>.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="accommodation">
+        <div class="container">
+            <h2 class="section-title">Accommodation Options</h2>
+            <div class="section-content">
+                <p>From luxurious resorts to budget-friendly hotels, Cancun offers a wide range of accommodation options to suit every traveler’s needs.</p>
+                <div class="images">
+                    <img src="resort.jpg" alt="Luxury resort in Cancun" style="max-width: 60%;">
+                    <img src="hotel.jpg" alt="Hotel in Cancun" style="max-width: 60%;">
+                </div>
+                <p>Find the best places to stay on <a href="https://www.booking.com/city/mx/cancun.html" target="_blank">Booking.com</a>.</p>
+            </div>
+        </div>
+    </section>
+    <section id="cuisine">
+        <div class="container">
+            <h2 class="section-title">Local Cuisine</h2>
+            <div class="section-content">
+                <p>Indulge in the delicious flavors of Mexican cuisine, from fresh seafood to traditional dishes like tacos and tamales.</p>
+                <div class="images">
+                    <img src="food.jpg" alt="Mexican food in Cancun" style="max-width: 60%;">
+                </div>
+                <p>Discover more about <a href="https://www.lonelyplanet.com/mexico/yucatan-peninsula/cancun/restaurants" target="_blank">Cancun restaurants</a>.</p>
+            </div>
+        </div>
+    </section>
+    <section id="culture">
+        <div class="container">
+            <h2 class="section-title">Cultural Experiences</h2>
+            <div class="section-content">
+                <p>Immerse yourself in the rich culture of Cancun by visiting local markets, attending festivals, and exploring historical sites.</p>
+                <div class="images">
+                    <img src="market.jpg" alt="Local market in Cancun" style="max-width: 60%;">
+                    <img src="festival.jpg" alt="Festival in Cancun" style="max-width: 60%;">
+                </div>
+                <p>Learn about <a href="https://www.tripsavvy.com/guide-to-cancun-festivals-and-events-1588755" target="_blank">festivals and events in Cancun</a>.</p>
+            </div>
+        </div>
+    </section>
+    <section id="trusted-taxi-service">
+        <div class="container">
+            <h2 class="section-title">Trusted Taxi Service & Tour Guide</h2>
+            <div class="section-content">
+                <p>Ensure your safety and convenience while exploring Cancun with our personalized and trusted taxi service. Our experienced local guides know the best places to visit and areas to avoid, ensuring a safe and enjoyable experience for all travelers. Let us help you navigate the city with ease and confidence.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Travel to Cancun. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            <a href="https://wa.me/1234567890" target="_blank">Contact Us on WhatsApp</a>
+        </div>
+    </footer>
+</body>
+</html>
